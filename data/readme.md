@@ -86,7 +86,7 @@ XML files have the following structure:
 ```
 <body>
   <para id="..." id_str="...">
-    <se lang="rom"><w><ana lex="..." wordf="..." gr="...,...,..." transl_ru="..."/>...</w>,<w><ana ...>...</w><w><ana ...>...</w></se>
+    <se lang="rom"><w><ana lex="..." wordf="..." gr="...,...,..." transl_ru="..."/><ana...>...</w>,<w><ana ...>...</w><w><ana ...>...</w></se>
     <se lang="ru">...</se>
   </para>
   <para>
@@ -96,3 +96,15 @@ XML files have the following structure:
 ```
 **NB:** while tokens in Ruska Romani sentences are written with containers like <w> and <ana>, sentences in Russian are written in one string without any annotations.
 
+XML containers explantations:
+
+| **Container**        | **Description**                                     |
+|------------------|-----------------------------------------------------|
+| **para**    | sentence pair, includes **id** and **id_str** attributes                                |
+| **se**    | sentence, includes attribute **lang** that stands for language code                         |
+| **w**      | word container                                   |
+| **ana**       | annotation of a word, includes **<lex>**, **<wordf>**, **<gr>**, and **<transl>**|
+| **lex**            | word lemma                                                   |
+| **lemma**         | normalised form of a word                                    |
+| **gr**         | grammatical features of a word, such as part of speech, gender, case, etc |
+| **transl**     | Russian translation of a word     |
