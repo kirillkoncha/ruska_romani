@@ -94,7 +94,7 @@ XML files have the following structure:
   </para>
 </body>
 ```
-**NB:** while tokens in Ruska Romani sentences are written with containers like <w> and <ana>, sentences in Russian are written in one string without any annotations.
+**NB:** while tokens in Ruska Romani sentences are written with containers like **\<w>** and **\<ana>**, sentences in Russian are written in one string without any annotations.
 
 XML containers explantations:
 
