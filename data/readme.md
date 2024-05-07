@@ -25,3 +25,56 @@ The corpus data is presented in two formats: JSON and RNC-XML. In both format, e
 | Son Makara             | V. G. Korolenko     | 1885 | 7613              | Makaroskiro soibe         | A. Svetlovo    | 1935         | 7187             |    `sleep.json`       |      `sleep.xml`         |
 | **Total**              |                     |      | **88742**         |                           |                |              | **84635**        |           |              |
 
+## JSON
+
+JSON files have the following structure:
+
+```
+{
+    "corpus": [
+        {
+            "sentence_rus": ...,
+            "sentence_roma": ...,
+            "sentence_id": 0,
+            "words_roma": [
+                [
+                    {
+                        "wf": ...,
+                        "lemma": ...,
+                        "gramm": [
+                            ...
+                        ],
+                        "wfGlossed": ...,
+                        "gloss": ...,
+                        "trans_en": ...,
+                        "trans": ...
+                    }
+                ],
+                [
+                    ...
+                ],
+                ...
+                ]
+
+        },
+        ...
+  ]
+}
+```
+
+Annotation fields explanation:
+
+| **Field**        | **Description**                                     |
+|------------------|-----------------------------------------------------|
+| **sentence_rus**    | sentence in Russian                                |
+| **sentence_roma**    | sentence in Ruska Romani                           |
+| **sentence_id**      | id of a sentence                                    |
+| **words_roma**       | annotations of each Ruska Romani token in a sentence|
+| **wf**            | word form                                                    |
+| **lemma**         | normalised form of a word                                    |
+| **gramm**         | grammatical features of a word, such as part of speech, gender, case, etc |
+| **wfGlossed**     | word form divided into morphological elements by hyphens     |
+| **trans_en**      | English translation of a word                                |
+| **trans**         | Russian translation of a word                                |
+
+
