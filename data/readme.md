@@ -190,4 +190,4 @@ XML containers explantations:
 | **pref**    | Prefix|
 | **dim**    |  Diminutive|
 | **ag**    |  Agent|
-| **NEG**    |  Negation|
+| **neg**    |  Negation|
