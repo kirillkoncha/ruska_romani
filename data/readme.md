@@ -108,3 +108,40 @@ XML containers explantations:
 | **lemma**         | normalised form of a word                                    |
 | **gr**         | grammatical features of a word, such as part of speech, gender, case, etc |
 | **transl**     | Russian translation of a word     |
+
+## Grammatical Features
+
+**Parts of Speech**
+| **Tag**        | **Description**|
+|------------------|--------------|
+| **S**    | Noun |
+| **A**    | Adjective |
+| **A**    | Verb |
+| **NUM**    | Numeral |
+| **ANUM**    | Oridnal (Numeral Adjective) |
+| **ADV**    | Adverb |
+| **PRO**    | Pronoun |
+| **PR**    | Preposition |
+| **CONJ**    | Conjunctive |
+| **PART**    | Particle |
+| **INTJ**    | Interjection |
+| **ART**    | Definite Article|
+| **PROPN**    | Proper Noun|
+
+**Gender**
+| **Tag**        | **Description**|
+|------------------|--------------|
+| **m**    | Masculine |
+| **f**    | Feminine |
+
+**Case**
+| **Tag**        | **Description**|
+|------------------|--------------|
+| **dir**    | Direct Case |
+| **gen**    | Genetive Case |
+| **dat**    | Dative Case |
+| **acc**    | Accusative Case |
+| **ins**    | Instumentalis Case |
+| **loc**    | Locative Case |
+| **voc**    | Vocative Case |
+| **car**    | Caritive Case |
