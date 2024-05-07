@@ -103,7 +103,7 @@ XML containers explantations:
 | **para**    | sentence pair, includes **id** and **id_str** attributes                                |
 | **se**    | sentence, includes attribute **lang** that stands for language code                         |
 | **w**      | word container                                   |
-| **ana**       | annotation of a word, includes **<lex>**, **<wordf>**, **<gr>**, and **<transl>**|
+| **ana**       | annotation of a word, includes **\<lex>**, **\<wordf>**, **\<gr>**, and **\<transl>**|
 | **lex**            | word lemma                                                   |
 | **lemma**         | normalised form of a word                                    |
 | **gr**         | grammatical features of a word, such as part of speech, gender, case, etc |
