@@ -126,7 +126,7 @@ XML containers explantations:
 | **PART**    | Particle |
 | **INTJ**    | Interjection |
 | **ART**    | Definite Article|
-| **PROPN**    | Proper Noun|
+| **propn**    | Proper Noun|
 
 **Gender**
 | **Tag**        | **Description**|
