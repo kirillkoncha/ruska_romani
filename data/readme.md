@@ -133,6 +133,7 @@ XML containers explantations:
 |------------------|--------------|
 | **m**    | Masculine |
 | **f**    | Feminine |
+| **n**    | Neutral |
 
 **Case**
 | **Tag**        | **Description**|
