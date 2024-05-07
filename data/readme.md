@@ -33,21 +33,23 @@ JSON files have the following structure:
 {
     "corpus": [
         {
-            "sentence_rus": ...,
-            "sentence_roma": ...,
-            "sentence_id": 0,
+            "sentence_rus": "...",
+            "sentence_roma": "...",
+            "sentence_id": "...",
             "words_roma": [
                 [
                     {
-                        "wf": ...,
-                        "lemma": ...,
+                        "wf": "...",
+                        "lemma": "...",
                         "gramm": [
-                            ...
+                            "...",
+                            "...",
+                             ...
                         ],
-                        "wfGlossed": ...,
-                        "gloss": ...,
-                        "trans_en": ...,
-                        "trans": ...
+                        "wfGlossed": "...",
+                        "gloss": "...",
+                        "trans_en": "...",
+                        "trans": "..."
                     }
                 ],
                 [
@@ -77,4 +79,20 @@ Annotation fields explanation:
 | **trans_en**      | English translation of a word                                |
 | **trans**         | Russian translation of a word                                |
 
+## RNC-XML
+
+XML files have the following structure:
+
+```
+<body>
+  <para id="..." id_str="...">
+    <se lang="rom"><w><ana lex="..." wordf="..." gr="...,...,..." transl_ru="..."/>...</w>,<w><ana ...>...</w><w><ana ...>...</w></se>
+    <se lang="ru">...</se>
+  </para>
+  <para>
+  ...
+  </para>
+</body>
+```
+**NB:** while tokens in Ruska Romani sentences are written with containers like <w> and <ana>, sentences in Russian are written in one string without any annotations.
 
