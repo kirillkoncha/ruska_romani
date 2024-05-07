@@ -138,6 +138,7 @@ XML containers explantations:
 | **Tag**        | **Description**|
 |------------------|--------------|
 | **dir**    | Direct Case |
+| **obl**    | Oblique Case |
 | **gen**    | Genetive Case |
 | **dat**    | Dative Case |
 | **acc**    | Accusative Case |
@@ -174,3 +175,18 @@ XML containers explantations:
 | **Tag**        | **Description**|
 |------------------|--------------|
 | **partcp**    | Participle |
+
+**Other**
+| **Tag**        | **Description**|
+|------------------|--------------|
+| **adpt**    | Adaptive Verb Suffix |
+| **cvb**    | Converb |
+| **hab**    | Habitual Aspect |
+| **caus**    | Causative |
+| **cl**    | Classifier|
+| **nmlz**    | Nominalisation|
+| **self**    | Reflexive Indicator|
+| **pref**    | Prefix|
+| **dim**    |  Diminutive|
+| **ag**    |  Agent|
+| **NEG**    |  Negation|
