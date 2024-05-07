@@ -111,12 +111,12 @@ XML containers explantations:
 
 ## Grammatical Features
 
-**Parts of Speech**
+**Part of Speech**
 | **Tag**        | **Description**|
 |------------------|--------------|
 | **S**    | Noun |
 | **A**    | Adjective |
-| **A**    | Verb |
+| **V**    | Verb |
 | **NUM**    | Numeral |
 | **ANUM**    | Oridnal (Numeral Adjective) |
 | **ADV**    | Adverb |
@@ -145,3 +145,32 @@ XML containers explantations:
 | **loc**    | Locative Case |
 | **voc**    | Vocative Case |
 | **car**    | Caritive Case |
+
+**Number**
+| **Tag**        | **Description**|
+|------------------|--------------|
+| **sg**    | Singular |
+| **pl**    | Plural |
+
+**Person**
+| **Tag**        | **Description**|
+|------------------|--------------|
+| **1p**    | First Person |
+| **2p**    | Second Person |
+| **3p**    | Third Person |
+
+**Tense**
+| **Tag**        | **Description**|
+|------------------|--------------|
+| **praet**    | Past Tense |
+| **praes**    | Present Tense |
+
+**Mood**
+| **Tag**        | **Description**|
+|------------------|--------------|
+| **imper**    | Imperative |
+
+**Verb Form**
+| **Tag**        | **Description**|
+|------------------|--------------|
+| **partcp**    | Participle |
