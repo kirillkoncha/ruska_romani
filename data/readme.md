@@ -176,12 +176,12 @@ XML containers explantations:
 | **Tag**        | **Description**|
 |------------------|--------------|
 | **partcp**    | Participle |
+| **cvb**    | Converb |
 
 **Other**
 | **Tag**        | **Description**|
 |------------------|--------------|
 | **adpt**    | Adaptive Verb Suffix |
-| **cvb**    | Converb |
 | **hab**    | Habitual Aspect |
 | **caus**    | Causative |
 | **cl**    | Classifier|
