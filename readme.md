@@ -24,3 +24,17 @@ The corpus creation involved manual alignment of a small part of translations wi
 + `alignment` — code and data to finetune and use LaBSE for Ruska Romani and Russian sentence alignment;
 + `annotation` — code for grammatical annotation of Ruska Romani Sentences
 
+## Authors
+
+Worked on the corpus creation:
++ Kirill Koncha
++ Abina Kukanova
++ Tatiana Kazakova
++ Gloria Rozovskaya
+
+Acknowledgments:
++ Kirill Kozhanov for or sharing texts in Ruska Romani
++ Timofey Arhangel’skij for creating uniparser-soviet-romani
++ Dmitry Sitchinava for help with data conversion to RNC
++ Olga Lyahevskaya, Svetlana Toldova, Denis Pisarenko, and Maxim Bazhukov for valuable feedback
++ Fedor Samodov for help with manual sentence alignment
