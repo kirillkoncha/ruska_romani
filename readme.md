@@ -33,7 +33,7 @@ Worked on the corpus creation:
 + Gloria Rozovskaya
 
 Acknowledgments:
-+ Kirill Kozhanov for or sharing texts in Ruska Romani
++ Kirill Kozhanov for sharing texts in Ruska Romani
 + Timofey Arhangel’skij for creating uniparser-soviet-romani
 + Dmitry Sitchinava for help with data conversion to RNC
 + Olga Lyahevskaya, Svetlana Toldova, Denis Pisarenko, and Maxim Bazhukov for valuable feedback
