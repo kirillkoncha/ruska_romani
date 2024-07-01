@@ -191,3 +191,6 @@ XML containers explantations:
 | **dim**    |  Diminutive|
 | **ag**    |  Agent|
 | **neg**    |  Negation|
+|**comp**  | Comparative Mood|
+|**abstr** | Abstract (of Nominal)|
+
