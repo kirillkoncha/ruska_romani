@@ -6,7 +6,7 @@ Ruska Romani is the dialect of Romani language attributed to Ruska Roma, the lar
 
 The corpus contains the translations of Russian literature into Ruska Romani dialect.
 
-The corpus includes 88,742 Russian tokens and 84,635 Ruska Romani tokens, 74,291 of which were grammatically annotated.
+The corpus includes 88,742 Russian tokens and 84,635 Ruska Romani tokens, 74,291 of which were grammatically annotated. Web interface of the corpus with search is [available](https://ruscorpora.ru/en/search?search=CgkyBwgFEgNybWw%253D) via the Russian National Corpus.
 
 The corpus could be used for linguistic research, including comparative and diachronic studies, bilingual dictionary creation, stylometry research, and NLP/MT tool development for Ruska Romani.
 
