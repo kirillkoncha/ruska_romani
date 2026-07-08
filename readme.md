@@ -14,6 +14,10 @@ The corpus could be used for linguistic research, including comparative and diac
 
 The corpus consists of Russian texts and their translations to Ruska Romani. The texts were translated in the USSR in the 1920s and 1930. The translated texts include both fiction and non-fiction domains. Both original texts and their translations are written in Cyrillic script. All the text sources and their metadata are presented in the `data` folder.
 
+## Model
+
+LaBSE embedding model was finetuned on the aligned Russian and Ruska Romani language pairs. The model and further information are available on [HuggingFace](https://huggingface.co/midwestcyr/labse-ruskaromani).
+
 ## Creation
 
 The corpus creation involved manual alignment of a small part of translations with original works, fine-tuning a language model on the aligned pairs, and using the fine-tuned model to align the remaining data. Ruska Romani sentences were annotated using a morphological analyzer, with rules crafted for proper nouns and borrowings.
